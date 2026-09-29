@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For Eva ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--rose:#e95d91;--hot:#d93673;--soft:#fff0f6;--ink:#512536;--cream:#fffafd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:radial-gradient(circle at 15% 10%,#ffd9e8 0,transparent 28%),radial-gradient(circle at 90% 20%,#f7c4da 0,transparent 25%),linear-gradient(135deg,#fff8fb,#ffeef5);font-family:"Cormorant Garamond",serif;min-height:100vh;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:24px 24px}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;position:relative;z-index:2}
+.brand{font-family:"Great Vibes",cursive;color:var(--hot);font-size:34px}.nav-heart{color:var(--rose);font-size:22px}
+.hero{min-height:calc(100vh - 72px);display:grid;place-items:center;padding:35px 20px 90px;position:relative}
+.hearts span{position:absolute;color:#e879a4;opacity:.35;animation:float 7s infinite ease-in-out}
+.hearts span:nth-child(1){left:8%;top:20%;font-size:30px}.hearts span:nth-child(2){right:10%;top:30%;font-size:42px;animation-delay:1s}.hearts span:nth-child(3){left:18%;bottom:16%;font-size:20px;animation-delay:2s}.hearts span:nth-child(4){right:22%;bottom:11%;font-size:28px;animation-delay:3s}
+@keyframes float{50%{transform:translateY(-22px) rotate(8deg)}}
+.card{width:min(800px,94vw);background:rgba(255,255,255,.74);border:1px solid rgba(217,77,119,.18);box-shadow:0 25px 80px rgba(172,67,103,.18);border-radius:34px;padding:70px 70px 62px;text-align:center;backdrop-filter:blur(14px);position:relative}
+.card:before,.card:after{content:"♡";position:absolute;color:#ed8faf;font-size:34px}.card:before{top:22px;left:28px}.card:after{bottom:20px;right:30px}
+.eyebrow{text-transform:uppercase;letter-spacing:5px;font-family:"Playfair Display",serif;font-size:11px;color:#c75b80}
+h1{font-family:"Great Vibes",cursive;font-size:clamp(72px,12vw,125px);font-weight:400;color:#d83d78;line-height:.9;margin:10px 0 24px;text-shadow:0 4px 20px rgba(216,61,120,.13)}
+.subtitle{font-size:23px;line-height:1.5;color:#76505e;margin:0 auto 34px;max-width:600px}
+.divider{display:flex;align-items:center;gap:15px;justify-content:center;color:#e26791;font-size:18px;margin:22px}.divider:before,.divider:after{content:"";width:95px;height:1px;background:linear-gradient(90deg,transparent,#eaa0b8)}
+.divider:after{background:linear-gradient(90deg,#eaa0b8,transparent)}
+.letter{background:rgba(255,250,252,.85);border:1px solid #f3d4df;border-radius:22px;padding:32px 38px;text-align:left;box-shadow:inset 0 1px #fff;margin-top:22px}
+.letter p{font-size:20px;line-height:1.75;margin:0 0 18px}.salute,.sign{font-family:"Great Vibes",cursive;color:#d83d78;font-size:34px}.sign{text-align:right;margin-top:25px}
+.reveal{margin-top:28px;border:0;background:linear-gradient(135deg,#e34c87,#c92f69);color:#fff;border-radius:999px;padding:14px 28px;font-family:"Playfair Display",serif;letter-spacing:.4px;font-weight:600;box-shadow:0 12px 30px rgba(201,47,105,.25);cursor:pointer;transition:.2s}.reveal:hover{transform:translateY(-2px);box-shadow:0 16px 35px rgba(201,47,105,.32)}
+.secret{max-height:0;overflow:hidden;transition:max-height .8s ease;margin:0}.secret.show{max-height:220px;margin-top:22px}.secret-inner{background:#fff1f6;border-radius:18px;padding:20px;font-size:21px;color:#843b58}
+footer{text-align:center;padding:0 20px 35px;color:#a06b7d;font-size:15px}
+@media(max-width:600px){.card{padding:50px 22px 40px}.letter{padding:24px 20px}.letter p{font-size:18px}.subtitle{font-size:20px}}
+</style>
+</head>
+<body>
+<nav><div class="brand">For Eva ♡</div><div class="nav-heart">♥</div></nav>
+<main class="hero">
+<div class="hearts"><span>♡</span><span>♥</span><span>♡</span><span>♥</span></div>
+<section class="card">
+<div class="eyebrow">A little something from my Cutu</div>
+<h1>Eva</h1>
+<p class="subtitle">Some feelings are too beautiful to fit into an ordinary message, so I made you a little corner of the internet instead.</p>
+<div class="divider">♡</div>
+<article class="letter">
+<p class="salute">My dear Eva,</p>
+<p>I don't know if a website can hold all the things I want to say, but I hope these words can carry at least a little piece of what is in my heart.</p>
+<p>The day I first saw you in the class , I fell in love with you. Your smile, your presence, and the little things that make you <em>you</em> have a way of staying in my thoughts long after the moment has passed.</p>
+<p>If I could give you one thing, it would be the ability to see yourself through my eyes — because then you'd know just how wonderfully precious you are.</p>
+<p class="sign">With all my heart,<br>♡</p>
+</article>
+<button class="reveal" onclick="revealMessage()">Open one more little secret ♡</button>
+<div class="secret" id="secret"><div class="secret-inner">Eva, if you ever wonder whether someone is thinking about you… the answer is probably yes. ♥</div></div>
+</section>
+</main>
+<footer>Made with a little courage, a lot of affection, and pink hearts. ♡</footer>
+<script>
+function revealMessage(){document.getElementById("secret").classList.toggle("show")}
+</script>
+</body>
+</html>
